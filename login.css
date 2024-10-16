@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+   background-image: url("hero.jpg");
+   background-size: cover;
+}
+
+form{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 350px;
+   height: 420px;
+   background: rgba(0, 0,0,.5);
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+   border-radius: 20px;
+   box-sizing: border-box;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   -webkit-border-radius: 20px;
+}
+
+form h1{
+    color: white;
+    text-align: center;
+}
+
+form  #pass,
+form  #user{
+    position: absolute;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #7bd3f7;
+    padding: 7px;
+    outline: none;
+}
+
+form  #user{
+    left: 50px;
+    top: 130px;
+}
+
+form  #pass{
+    left: 50px;
+    top: 180px;
+}
+::placeholder{
+    color: white;
+}
+
+form #login{
+    position: absolute;
+    top:280px;
+    left: 110px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #7bd3f7;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    width: 130px;
+    height: 35px;
+}
+
+form #login:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
